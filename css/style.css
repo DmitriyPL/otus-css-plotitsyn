@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 6rem;
+}
+
+h1 {
+    font-size: 1.3rem;
+}
+
+h2 {
+    margin-top: 2.5rem;
+    font-size: 1.1rem;
+}
+
+h3 {
+    margin-top: 2.5rem;
+    font-size: 1.1rem;
+}
+
+ul {
+    margin-left: 1.0rem;
+}
+
+p, ul {
+    margin-top: 1rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+div {
+    margin-top: 2.5rem;
+}
+
+.oblique {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.underline {
+    text-decoration: underline;
+}
