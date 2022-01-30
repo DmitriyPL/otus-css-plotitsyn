@@ -1,0 +1,66 @@
+:root {
+    font-size: 16px;
+}
+
+/* Ограничение экрана */
+main{
+    max-width: 90rem;
+    min-width: 45rem;
+    margin: 0 auto;
+}
+
+/* Защита от пользовательских настроек*/
+body{
+    background-color: white;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    width: 100%;  
+    display: inline-block;
+}
+
+h1 {
+    font-family: Butler;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5.4rem;
+
+    color: #000000;
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+    color: #000000;
+}
+
+.img_sec1 {
+    position: absolute;
+    top: 8.5rem;
+    left: 11.7rem;
+    height: 630px;
+    width: 1065px;
+}
+
+.hero_section {
+    display: inline-block;
+    position: absolute;
+    top: 17rem;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: white; 
+    text-align: center;
+}
+
+.h1_sec1{
+    margin: 8.125rem 3rem 0 3rem;
+}
+
+.h2_sec1{
+    margin: 1.125rem auto 5.625rem auto;
+}
