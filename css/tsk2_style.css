@@ -3,7 +3,7 @@ body {
     margin: 6rem;
 }
 
-article {
+article, div, h1 {
     margin-top: 2.5rem;
 }
 
@@ -21,7 +21,6 @@ ul {
 
 p, ul {
     margin-top: 1rem;
-    /* text-align: justify; */
     line-height: 1.5rem;
     font-size: 1rem;
 }
