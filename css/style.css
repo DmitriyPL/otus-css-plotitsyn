@@ -7,6 +7,16 @@
     display: none;
 }
 
+@font-face {
+    font-family: "Butler";
+    src: url("/fonts/Butler/Butler_Medium.otf");
+  }
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto/Roboto-Medium.ttf");
+}
+
 /* Защита от пользовательских настроек*/
 body{
     background-color: white;
@@ -20,7 +30,7 @@ main{
 }
 
 h1 {
-    font-family: Butler;
+    font-family: "Butler", serif;
     font-style: normal;
     font-weight: normal;
     font-size: 5.4rem;
@@ -29,7 +39,7 @@ h1 {
 }
 
 h2 {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 1.1rem;
@@ -54,8 +64,7 @@ h2 {
     bottom: 0;
     left: 0;
     margin: auto;
-    width: 1065px;
-    height: 630px;
+    max-width: 1065px;
 }
 
 .sec1_title {
@@ -71,7 +80,7 @@ h2 {
 .sec1_h1 {
     margin: 0;
     font-size: 1em;
-    line-height: 1.21em;
+    line-height: 1.21;
 }
 
 .sec1_h2 {
@@ -79,5 +88,5 @@ h2 {
     left: 0;
     right: 0;
     margin: 0;
-    line-height: 1em;
+    line-height: 1;
 }
