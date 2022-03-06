@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Butler";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Butler Light"), local("Butler-Light"),
+         url("../fonts/Butler/Butlerlight.woff2") format("woff2"),
+         url("../fonts/Butler/Butlerlight.woff") format("woff"),     
+         url("../fonts/Butler/Butlerlight.ttf") format("truetype"),
+         url("../fonts/Butler/Butlerlight.otf") format("opentype");               
+  }
+
+/* Жесткий контроль подгружаемого шрифта */
+@font-face {
+    font-family: "Butler";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Butler/Butler.woff2") format("woff2"),
+         url("../fonts/Butler/Butler.woff") format("woff"),     
+         url("../fonts/Butler/Butler.ttf") format("truetype"),
+         url("../fonts/Butler/Butler.otf") format("opentype");               
+  }
+
+/* Жесткий контроль подгружаемого шрифта */
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Roboto/medium.woff2") format("woff2"),
+         url("../fonts/Roboto/Robotomedium.woff") format("woff"),
+         url("../fonts/Roboto/Robotomedium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Roboto Bold"), local("Roboto-Bold"),
+         url("../fonts/Roboto/Robotobold.woff2") format("woff2"),
+         url("../fonts/Roboto/Robotobold.woff") format("woff"),
+         url("../fonts/Roboto/Robotobold.ttf") format("truetype");
+}
