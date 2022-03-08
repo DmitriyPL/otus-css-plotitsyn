@@ -2,24 +2,26 @@
     font-size: 16px;
 }
 
-/* Сервисный */
+/* Service */
 .invisible {
     display: none;
 }
 
-/* Защита от пользовательских настроек*/
+/* Protection from user settings */
 body{
     background-color: white;
 }
 
-/* Ограничение экрана */
+/* Screen limitation */
 main{
     max-width: 90rem;
     min-width: 45rem;
     margin: 0 auto;
 }
 
-h1 {
+/* CSS common */
+
+h1, h3 {
     font-family: "Butler", serif;
     font-weight: 300;
     font-size: 5.4rem;
@@ -35,15 +37,27 @@ h2 {
     color: #000000;
 }
 
-.sec1 {
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 1.125rem;
+
+    color: #636363;
+}
+
+section {
     height: 100vh;
     min-height: 40rem;
     position: relative;
+}
+
+/* CSS section 1 */
+
+.sec1 {
     margin: 0 auto;
     text-align: center;
     line-height: 100vh;
 }
-
 
 .img_sec1 {
     position: absolute;
@@ -75,6 +89,61 @@ h2 {
     position: absolute;
     left: 0;
     right: 0;
-    margin: 0;
+    margin: 1rem, 0, 0, 0;
     line-height: 1;
+}
+
+/* CSS section 2 */
+
+img.sec2_img {
+
+    display: block;
+    max-width: 50%;
+    float: left;
+    margin-left: 8.375rem;
+}
+
+div.sec2_txt {
+    display: block;
+    max-width: 32%;
+    float: left;
+    margin-left: 9.2rem;
+}
+
+h2.sec2_h2 {
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 8rem;
+    transform: rotate(-90deg);
+    max-width: 18%;
+}
+
+.sec2_h3 {
+    margin-top: 12.25;
+    margin-bottom: 4.125; 
+}
+
+.sec2_h4 {
+    margin: 0;
+}
+
+div.sec2_txt p {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 1.125rem;
+
+    color: #636363;    
+    margin-top: 0.5rem;
+}
+
+div.sec2_txt blockquote {
+
+    font-family: "Butler", serif;
+    font-weight: 200;
+    font-size: 2rem;
+
+    color: #000000;
+    margin: 6.5rem 0 0 0;    
 }

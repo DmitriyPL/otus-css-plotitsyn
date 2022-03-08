@@ -1,4 +1,15 @@
 @font-face {
+  font-family: "Butler";
+  font-style: normal;
+  font-weight: 200;
+  src: local("Butler Ultra Light"), local("Butler-Ultra-Light"),
+       url("../fonts/Butler/Butlerultralight.woff2") format("woff2"),
+       url("../fonts/Butler/Butlerultralight.woff") format("woff"),     
+       url("../fonts/Butler/Butlerultralight.ttf") format("truetype"),
+       url("../fonts/Butler/Butlerultralight.otf") format("opentype");               
+}
+
+@font-face {
     font-family: "Butler";
     font-style: normal;
     font-weight: 300;
@@ -9,7 +20,7 @@
          url("../fonts/Butler/Butlerlight.otf") format("opentype");               
   }
 
-/* Жесткий контроль подгружаемого шрифта */
+/* hard control (without local) */
 @font-face {
     font-family: "Butler";
     font-style: normal;
@@ -20,12 +31,12 @@
          url("../fonts/Butler/Butler.otf") format("opentype");               
   }
 
-/* Жесткий контроль подгружаемого шрифта */
+/* hard control (without local) */
 @font-face {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
-    src: url("../fonts/Roboto/medium.woff2") format("woff2"),
+    src: url("../fonts/Roboto/Robotomedium.woff2") format("woff2"),
          url("../fonts/Roboto/Robotomedium.woff") format("woff"),
          url("../fonts/Roboto/Robotomedium.ttf") format("truetype");
 }
