@@ -96,32 +96,31 @@ section {
 /* CSS section 2 */
 
 img.sec2_img {
-
     display: block;
-    max-width: 50%;
     float: left;
+    width: 34.56rem;
+    height: 52.5rem;
+    max-width: 50%;
     margin-left: 8.375rem;
 }
 
 div.sec2_txt {
     display: block;
-    max-width: 32%;
     float: left;
+    width: 29.7rem;
+    max-width: 50%;
     margin-left: 9.2rem;
 }
 
 h2.sec2_h2 {
-    float: right;
     position: absolute;
     right: 0;
     bottom: 8rem;
     transform: rotate(-90deg);
-    max-width: 18%;
 }
 
 .sec2_h3 {
-    margin-top: 12.25;
-    margin-bottom: 4.125; 
+    margin: 2.269em 0 0.7639em 0;
 }
 
 .sec2_h4 {
@@ -129,21 +128,19 @@ h2.sec2_h2 {
 }
 
 div.sec2_txt p {
-
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-size: 1.125rem;
 
     color: #636363;    
-    margin-top: 0.5rem;
+    margin: 0.112em 0 0 0;
 }
 
 div.sec2_txt blockquote {
-
     font-family: "Butler", serif;
     font-weight: 200;
     font-size: 2rem;
 
     color: #000000;
-    margin: 6.5rem 0 0 0;    
+    margin: 3.25em 0 0 0;    
 }
