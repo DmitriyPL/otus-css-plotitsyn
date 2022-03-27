@@ -16,7 +16,7 @@
     position: absolute;
     z-index: 2;
     opacity: 0.6;
-    /* display: none; */
+    display: none;
 }
 
 /* Protection from user settings */
@@ -59,7 +59,7 @@ h4 {
 
 section {
     height: 100vh;
-    min-height: 40rem;
+    min-height: 70vh;
     position: relative;
 }
 
@@ -190,7 +190,7 @@ section {
 .sec3 h2 {
     position: absolute;
     right: 26.2%;
-    top: 13.55%;
+    bottom: 80.9%;
     transform: rotate(-90deg);
 }
 
@@ -246,12 +246,12 @@ section.sec3 article:not(.element-1st){
 
 /* El3 */
 .element-3rd h3 {
-    margin-top: 4.8%;
+    margin-top: 5%;
     margin-bottom: 0;
 }
 
 .element-3rd p {
-    margin-top: 0.3%;
+    margin-top: 0.5%;
     margin-bottom: 0;
 }
 
@@ -263,6 +263,7 @@ section.sec3 article:not(.element-1st){
 
 .element-2nd img {
     width: 92.8%;
+    max-width: 92.8%;
 }
 
 .element-3rd img {
