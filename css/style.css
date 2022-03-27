@@ -8,7 +8,7 @@
 }
 
 /* Debug img */
-#debug {
+/* #debug {
     width: 1440px;
     height: 4560px;
     margin: 0 auto;
@@ -17,7 +17,19 @@
     z-index: 2;
     opacity: 0.6;
     display: none;
+} */
+
+#debug {
+    width: 1440px;
+    height: 899px;
+    margin: 0 auto;
+    background: url(../img/Section4.png) no-repeat top center;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.6;
+    /* display: none; */
 }
+
 
 /* Protection from user settings */
 body{
@@ -168,3 +180,100 @@ section {
     display: block;
     clear: both;
   }
+
+/* CSS section 4 */
+
+.sec4 {
+
+    display: grid;
+    height: 100%;
+    
+    grid-template-columns: 11.1% repeat(2, 1fr);
+    grid-template-rows: 11.2% 37.7% repeat(2, 1fr);
+    justify-items: start;
+    
+    grid-template-areas: 
+        ". subtitle ."
+        "block1 picture1 quote"
+        "block2 picture1 picture2"
+        "block3 picture1 picture2";
+}
+
+.sec4 h2 {
+    grid-area: subtitle;
+    margin: 0;
+    padding-top: 12.3%;
+}
+
+.sec4 h3 {
+
+    margin: 0;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+
+    color: #000000;
+}
+
+.sec4 p {
+
+    font-family: "Butler", serif;
+    font-weight: 200;
+    font-size: 2rem;
+    line-height: 1.17;
+    text-align: center;
+
+    color: black;
+
+    grid-area: quote;
+    padding-top: 6.4%;
+    margin: 0 0 0 28.5%; 
+}
+
+.sec4 a {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+
+    color: #000000;
+
+}
+
+.picture1 {
+    padding-top: 6.5%;
+    grid-area: picture1;    
+}
+
+.picture2 {
+    grid-area: picture2;
+    padding-left: 26.8%;
+} 
+
+.block1, .block2, .block3 {
+    align-self: center;
+    justify-self: end;
+    transform: rotate(-90deg);    
+}
+
+.block1 {
+    grid-area: block1;
+    padding-top: 77%;
+    padding-right: 51%;
+}
+
+.block2 {
+    grid-area: block2;
+    padding-top: 50%;
+    padding-left: 24%;
+}
+
+.block3 {
+    grid-area: block3;
+    padding-top: 45%;
+    padding-left: 19%;
+}
+
+
+
