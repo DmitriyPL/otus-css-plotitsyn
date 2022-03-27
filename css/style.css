@@ -59,7 +59,7 @@ h4 {
 
 section {
     height: 100vh;
-    min-height: 40rem;
+    min-height: 70vh;
     position: relative;
 }
 
@@ -168,3 +168,104 @@ section {
     display: block;
     clear: both;
   }
+
+/* CSS section 3 */
+
+.sec3 h3, span {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+
+    color: #000000;
+}
+
+.sec3 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+
+    color: #000000;
+}
+
+.sec3 h2 {
+    position: absolute;
+    right: 26.2%;
+    bottom: 80.9%;
+    transform: rotate(-90deg);
+}
+
+.sec3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.element-1st {
+    flex-grow: 2.3;
+    padding-top: 7.6%;
+}
+
+section.sec3 article:not(.element-1st){
+    padding-top: 14.3%;    
+  }
+
+.element-2nd {
+    flex-grow: 0.5;
+}
+
+.element-3rd {
+    flex-grow: 1.5;
+}
+
+/* El1 */
+.element-1st h3, .element-1st p {
+    padding-left: 24.58%;
+}
+
+.element-1st h3 {
+    margin-top: 2.8%;
+    margin-bottom: 0;
+}
+
+.element-1st p {
+    margin-top: 0.1%;
+    margin-bottom: 0;
+}
+
+/* El2 */
+.element-2nd h3 {
+    margin-top: 5.8%;
+    margin-bottom: 0;
+}
+
+.element-2nd p {
+    margin-top: 0.1%;
+    margin-bottom: 0;
+}
+
+/* El3 */
+.element-3rd h3 {
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+.element-3rd p {
+    margin-top: 0.5%;
+    margin-bottom: 0;
+}
+
+/* IMGS */
+
+.element-1st img {
+    width: 84.7%;
+}
+
+.element-2nd img {
+    width: 92.8%;
+    max-width: 92.8%;
+}
+
+.element-3rd img {
+    width: 81%;
+}
